@@ -2,7 +2,7 @@ import smtplib
 
 sender_email = "secretsanta2020.510@gmail.com"
 rec_email = "drojas@ucdavis.edu"
-password = input(str("Please enter your passwor : " ))
+password = input(str("Please enter your password : " ))
 
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
